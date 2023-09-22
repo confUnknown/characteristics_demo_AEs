@@ -11,7 +11,7 @@ In the paper we found adversarial examples for DNSMOS, a CNN-based speech qualit
 ###### Sample 1 
  [**original**: *SIG*=4.17, *BAK*=4.49, *OVR*=3.98],   [**perturbed**: *SIG*=1.14, *BAK*=1.22, *OVR*=0.97]
 <audio style="width:320px" controls="controls">
-	<source src="CTC_Deutsch/Benign/common_voice_de_17315084.wav" type="audio/wav" />
+	<source src="CTC_Deutsch/Benign/common_voice_de_17315084.mp3" type="audio/wav" />
 </audio>
 <audio style="width:320px" controls="controls">
 	<source src="CTC_Deutsch/Benign_noise/common_voice_de_17315084.wav" type="audio/wav" />
