@@ -30,12 +30,26 @@ Adversarial transcription:  <em>PEARL WAS A BORN OUTCAST OF THE INFANTILE WORLD<
 </audio>
 
 ###### Sample 2 
- [**original**: *SIG*=4.06, *BAK*=4.16, *OVR*=3.73],   [**perturbed**: *SIG*=0.99, *BAK*=1.00, *OVR*=1.00]
-<audio style="width:320px" controls="controls">
-	<source src="wavs/DNS/original_DNSMOS_SIG_4.06_BAK_4.16_OVR_3.73_book_00007_chp_0008_reader_01326_9_7J3kchZ5UAg-0BQdzcum73Y-door_Freesound_validated_419319_3_snr27_fileid_39095.wav" type="audio/wav" />
+<pre>Benign transcription:       <em>HOW JOLLY IT WAS BEING YOUNG HILDA</em>
+Adversarial transcription:  <em>THERE WAS A GRIM SMILE OF AMUSEMENT ON HIS SHREWD FACE</em>
+</pre> &nbsp;
+[**benign**: *WER*=0.00],               [**noisy**: *WER*=0.00, SNR<sub>seg</sub>=6.03]
+ <audio style="width:320px" controls="controls">
+	<source src="audio_clips/Librispeech/4446-2273-0017_benign.flac" type="audio/flac" />
 </audio>
 <audio style="width:320px" controls="controls">
-	<source src="wavs/DNS/attacked_DNSMOS_SIG_0.99_BAK_1.00_OVR_1.00_book_00007_chp_0008_reader_01326_9_7J3kchZ5UAg-0BQdzcum73Y-door_Freesound_validated_419319_3_snr27_fileid_39095.wav" type="audio/wav" />
+	<source src="audio_clips/Librispeech/4446-2273-0017_noisy.flac" type="audio/flac" />
+</audio>
+[**C&W adversarial**: *WER*=0.00, SNR<sub>seg</sub>=22.04],   [**psychoacoustic**: *WER*=0.00, SNR<sub>seg</sub>=22.95]
+ <audio style="width:320px" controls="controls">
+	<source src="audio_clips/Librispeech/4446-2273-0017_cw.wav" type="audio/wav" />
+</audio>
+<audio style="width:320px" controls="controls">
+	<source src="audio_clips/Librispeech/4446-2273-0017_psy.wav" type="audio/wav" />
+</audio>
+[**adaptive adversarial**: *WER*=0.00, SNR<sub>seg</sub>=-5.87]
+<audio style="width:320px" controls="controls">
+	<source src="audio_clips/Librispeech/4446-2273-0017_gc.wav" type="audio/flac" />
 </audio>
 
 
