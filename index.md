@@ -8,9 +8,9 @@ For each sample, we include the word error rate (WER) as an accuracy metric and 
 ## Librispeech - English
 
 ###### Sample 1 
-Benign transcription:  _THEN HE LOOKED DOWN THE LAGOON WAS DRY_
+Benign transcription:       _THEN HE LOOKED DOWN THE LAGOON WAS DRY_
 
-Adversarial transcription: _PEARL WAS A BORN OUTCAST OF THE INFANTILE WORLD_
+Adversarial transcription:  _PEARL WAS A BORN OUTCAST OF THE INFANTILE WORLD_
 
  [**benign**: *WER*=0.00, SNR<sub>seg</sub>=----],   [**noisy**: *WER*=62.50, SNR<sub>seg</sub>=-4.79]
  <audio style="width:320px" controls="controls">
