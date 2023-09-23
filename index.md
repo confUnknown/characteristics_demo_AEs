@@ -61,21 +61,21 @@ Adversarial transcription:  <em>NEU DELHI IST DIE HAUPTSTADT VON INDIEN</em>
 </pre> &nbsp;
 [**benign**: *WER*=0.00],               [**noisy**: *WER*=0.00, SNR<sub>seg</sub>=-20.24]
  <audio style="width:320px" controls="controls">
-	<source src="audio_clips/Librispeech/common_voice_de_17914813_benign.mp3" type="audio/mp3" />
+	<source src="audio_clips/CommonVoice/German/common_voice_de_17914813_benign.mp3" type="audio/mp3" />
 </audio>
 <audio style="width:320px" controls="controls">
-	<source src="audio_clips/Librispeech/common_voice_de_17914813_noisy.flac" type="audio/wav" />
+	<source src="audio_clips/CommonVoice/German/common_voice_de_17914813_noisy.flac" type="audio/wav" />
 </audio>
 [**C&W adversarial**: *WER*=0.00, SNR<sub>seg</sub>=9.05],   [**psychoacoustic**: *WER*=0.00, SNR<sub>seg</sub>=11.72]
  <audio style="width:320px" controls="controls">
-	<source src="audio_clips/Librispeech/common_voice_de_17914813_cw.wav" type="audio/wav" />
+	<source src="audio_clips/CommonVoice/German/common_voice_de_17914813_cw.wav" type="audio/wav" />
 </audio>
 <audio style="width:320px" controls="controls">
-	<source src="audio_clips/Librispeech/common_voice_de_17914813_psy.wav" type="audio/wav" />
+	<source src="audio_clips/CommonVoice/German/common_voice_de_17914813_psy.wav" type="audio/wav" />
 </audio>
 [**adaptive adversarial**: *WER*=0.00, SNR<sub>seg</sub>=-25.41]
 <audio style="width:320px" controls="controls">
-	<source src="audio_clips/Librispeech/common_voice_de_17914813.wav" type="audio/wav" />
+	<source src="audio_clips/CommonVoice/German/common_voice_de_17914813.wav" type="audio/wav" />
 </audio>
 
 
@@ -85,21 +85,21 @@ Adversarial transcription:  <em>WAS SOLLS ICH BIN BEREIT</em>
 </pre> &nbsp;
 [**benign**: *WER*=0.00],               [**noisy**: *WER*=20.00, SNR<sub>seg</sub>=-17.16]
  <audio style="width:320px" controls="controls">
-	<source src="audio_clips/Librispeech/common_voice_de_18217625_benign.mp3" type="audio/mp3" />
+	<source src="audio_clips/CommonVoice/German/common_voice_de_18217625_benign.mp3" type="audio/mp3" />
 </audio>
 <audio style="width:320px" controls="controls">
-	<source src="audio_clips/Librispeech/common_voice_de_18217625_noisy.wav" type="audio/wav" />
+	<source src="audio_clips/CommonVoice/German/common_voice_de_18217625_noisy.wav" type="audio/wav" />
 </audio>
 [**C&W adversarial**: *WER*=0.00, SNR<sub>seg</sub>=8.86],   [**psychoacoustic**: *WER*=0.00, SNR<sub>seg</sub>=11.23]
  <audio style="width:320px" controls="controls">
-	<source src="audio_clips/Librispeech/common_voice_de_18217625_cw.wav" type="audio/wav" />
+	<source src="audio_clips/CommonVoice/German/common_voice_de_18217625_cw.wav" type="audio/wav" />
 </audio>
 <audio style="width:320px" controls="controls">
-	<source src="audio_clips/Librispeech/common_voice_de_18217625_psy.wav" type="audio/wav" />
+	<source src="audio_clips/CommonVoice/German/common_voice_de_18217625_psy.wav" type="audio/wav" />
 </audio>
 [**adaptive adversarial**: *WER*=0.00, SNR<sub>seg</sub>=-12.88]
 <audio style="width:320px" controls="controls">
-	<source src="audio_clips/Librispeech/1995-1837-0013_gc.wav" type="audio/wav" />
+	<source src="audio_clips/CommonVoice/German/1995-1837-0013_gc.wav" type="audio/wav" />
 </audio>
 
 ## Common Voice v.6 - Italian
@@ -110,21 +110,21 @@ Adversarial transcription:  <em>SEMPRE CARO MI FU QUEST'ERMO COLLE</em>
 </pre> &nbsp;
 [**benign**: *WER*=66.67],               [**noisy**: *WER*=66.67, SNR<sub>seg</sub>=-3.39]
  <audio style="width:320px" controls="controls">
-	<source src="audio_clips/Librispeech/common_voice_it_20088717_benign.mp3" type="audio/mp3" />
+	<source src="audio_clips/CommonVoice/Italian/common_voice_it_20088717_benign.mp3" type="audio/mp3" />
 </audio>
 <audio style="width:320px" controls="controls">
-	<source src="audio_clips/Librispeech/common_voice_it_20088717_noisy.wav" type="audio/wav" />
+	<source src="audio_clips/CommonVoice/Italian/common_voice_it_20088717_noisy.wav" type="audio/wav" />
 </audio>
 [**C&W adversarial**: *WER*=0.00, SNR<sub>seg</sub>=10.36],   [**psychoacoustic**: *WER*=0.00, SNR<sub>seg</sub>=13.67]
  <audio style="width:320px" controls="controls">
-	<source src="audio_clips/Librispeech/common_voice_it_20088717_cw.wav" type="audio/wav" />
+	<source src="audio_clips/CommonVoice/Italian/common_voice_it_20088717_cw.wav" type="audio/wav" />
 </audio>
 <audio style="width:320px" controls="controls">
-	<source src="audio_clips/Librispeech/common_voice_it_20088717_psy.wav" type="audio/wav" />
+	<source src="audio_clips/CommonVoice/Italian/common_voice_it_20088717_psy.wav" type="audio/wav" />
 </audio>
 [**adaptive adversarial**: *WER*=0.00, SNR<sub>seg</sub>=-12.54]
 <audio style="width:320px" controls="controls">
-	<source src="audio_clips/Librispeech/common_voice_it_20088717_gc.wav" type="audio/wav" />
+	<source src="audio_clips/CommonVoice/Italian/common_voice_it_20088717_gc.wav" type="audio/wav" />
 </audio>
 
 ###### Sample 2 
@@ -133,21 +133,21 @@ Adversarial transcription:  <em>LA LORO PRESENZA ERA PARTICOLARMENTE APPREZZATA 
 </pre> &nbsp;
 [**benign**: *WER*=0.00],               [**noisy**: *WER*=55.56, SNR<sub>seg</sub>=-11.31]
  <audio style="width:320px" controls="controls">
-	<source src="audio_clips/Librispeech/common_voice_it_20020291_benign.mp3" type="audio/mp3" />
+	<source src="audio_clips/CommonVoice/Italian/common_voice_it_20020291_benign.mp3" type="audio/mp3" />
 </audio>
 <audio style="width:320px" controls="controls">
-	<source src="audio_clips/Librispeech/common_voice_it_20020291_noisy.wav" type="audio/wav" />
+	<source src="audio_clips/CommonVoice/Italian/common_voice_it_20020291_noisy.wav" type="audio/wav" />
 </audio>
 [**C&W adversarial**: *WER*=0.00, SNR<sub>seg</sub>=16.05],   [**psychoacoustic**: *WER*=0.00, SNR<sub>seg</sub>=18.96]
  <audio style="width:320px" controls="controls">
-	<source src="audio_clips/Librispeech/common_voice_it_20020291_cw.wav" type="audio/wav" />
+	<source src="audio_clips/CommonVoice/Italian/common_voice_it_20020291_cw.wav" type="audio/wav" />
 </audio>
 <audio style="width:320px" controls="controls">
-	<source src="audio_clips/Librispeech/common_voice_it_20020291_psy.wav" type="audio/wav" />
+	<source src="audio_clips/CommonVoice/Italian/common_voice_it_20020291_psy.wav" type="audio/wav" />
 </audio>
 [**adaptive adversarial**: *WER*=0.00, SNR<sub>seg</sub>=-6.73]
 <audio style="width:320px" controls="controls">
-	<source src="audio_clips/Librispeech/common_voice_it_20020291_gc.wav" type="audio/wav" />
+	<source src="audio_clips/CommonVoice/Italian/common_voice_it_20020291_gc.wav" type="audio/wav" />
 </audio>
 
 ## Aishell - Mandarin
@@ -158,21 +158,21 @@ Adversarial transcription:  <em>顶级 田径 赛事 再次 落户 鸟巢</em>
 </pre> &nbsp;
 [**benign**: *WER*=0.00],               [**noisy**: *WER*=0.00, SNR<sub>seg</sub>=6.95]
  <audio style="width:320px" controls="controls">
-	<source src="audio_clips/Librispeech/BAC009S0908W0304_benign.wav" type="audio/wav" />
+	<source src="audio_clips/Aishell/BAC009S0908W0304_benign.wav" type="audio/wav" />
 </audio>
 <audio style="width:320px" controls="controls">
-	<source src="audio_clips/Librispeech/BAC009S0908W0304_noisy.wav" type="audio/wav" />
+	<source src="audio_clips/Aishell/BAC009S0908W0304_noisy.wav" type="audio/wav" />
 </audio>
 [**C&W adversarial**: *WER*=0.00, SNR<sub>seg</sub>=21.39],   [**psychoacoustic**: *WER*=0.00, SNR<sub>seg</sub>=25.20]
  <audio style="width:320px" controls="controls">
-	<source src="audio_clips/Librispeech/BAC009S0908W0304_cw.wav" type="audio/wav" />
+	<source src="audio_clips/Aishell/BAC009S0908W0304_cw.wav" type="audio/wav" />
 </audio>
 <audio style="width:320px" controls="controls">
-	<source src="audio_clips/Librispeech/BAC009S0908W0304_psy.wav" type="audio/wav" />
+	<source src="audio_clips/Aishell/BAC009S0908W0304_psy.wav" type="audio/wav" />
 </audio>
 [**adaptive adversarial**: *WER*=0.00, SNR<sub>seg</sub>=-5.87]
 <audio style="width:320px" controls="controls">
-	<source src="audio_clips/Librispeech/BAC009S0908W0304_gc.wav" type="audio/wav" />
+	<source src="audio_clips/Aishell/BAC009S0908W0304_gc.wav" type="audio/wav" />
 </audio>
 
 ###### Sample 2 
@@ -181,19 +181,19 @@ Adversarial transcription:  <em>发行 利率 也有 较大 幅度 上升</em>
 </pre> &nbsp;
 [**benign**: *WER*=8.33],               [**noisy**: *WER*=25.00, SNR<sub>seg</sub>=1.05]
  <audio style="width:320px" controls="controls">
-	<source src="audio_clips/Librispeech/BAC009S0904W0207_benign.wav" type="audio/wav" />
+	<source src="audio_clips/Aishell/BAC009S0904W0207_benign.wav" type="audio/wav" />
 </audio>
 <audio style="width:320px" controls="controls">
-	<source src="audio_clips/Librispeech/BAC009S0904W0207_noisy.wav" type="audio/wav" />
+	<source src="audio_clips/Aishell/BAC009S0904W0207_noisy.wav" type="audio/wav" />
 </audio>
 [**C&W adversarial**: *WER*=0.00, SNR<sub>seg</sub>=22.48],   [**psychoacoustic**: *WER*=0.00, SNR<sub>seg</sub>=25.82]
  <audio style="width:320px" controls="controls">
-	<source src="audio_clips/Librispeech/BAC009S0904W0207_cw.wav" type="audio/wav" />
+	<source src="audio_clips/Aishell/BAC009S0904W0207_cw.wav" type="audio/wav" />
 </audio>
 <audio style="width:320px" controls="controls">
-	<source src="audio_clips/Librispeech/BAC009S0904W0207_psy.wav" type="audio/wav" />
+	<source src="audio_clips/Aishell/BAC009S0904W0207_psy.wav" type="audio/wav" />
 </audio>
 [**adaptive adversarial**: *WER*=0.00, SNR<sub>seg</sub>=-2.87]
 <audio style="width:320px" controls="controls">
-	<source src="audio_clips/Librispeech/BAC009S0904W0207_gc.wav" type="audio/wav" />
+	<source src="audio_clips/Aishell/BAC009S0904W0207_gc.wav" type="audio/wav" />
 </audio>
