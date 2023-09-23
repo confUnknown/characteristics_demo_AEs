@@ -105,93 +105,97 @@ Adversarial transcription:  <em>WAS SOLLS ICH BIN BEREIT</em>
 ## Common Voice v.6 - Italian
 
 ###### Sample 1 
-<pre>Benign transcription:       <em>THEN HE LOOKED DOWN THE LAGOON WAS DRY</em>
-Adversarial transcription:  <em>PEARL WAS A BORN OUTCAST OF THE INFANTILE WORLD</em>
+<pre>Benign transcription:       <em>BERNARDO FALQUI PES</em>
+Adversarial transcription:  <em>SEMPRE CARO MI FU QUEST'ERMO COLLE</em>
 </pre> &nbsp;
-[**benign**: *WER*=0.00],               [**noisy**: *WER*=62.50, SNR<sub>seg</sub>=-4.79]
+[**benign**: *WER*=66.67],               [**noisy**: *WER*=66.67, SNR<sub>seg</sub>=-3.39]
  <audio style="width:320px" controls="controls">
-	<source src="audio_clips/Librispeech/common_voice_de_18217625_benign.mp3" type="audio/mp3" />
+	<source src="audio_clips/Librispeech/common_voice_it_20088717_benign.mp3" type="audio/mp3" />
 </audio>
 <audio style="width:320px" controls="controls">
-	<source src="audio_clips/Librispeech/common_voice_de_18217625_noisy.wav" type="audio/wav" />
+	<source src="audio_clips/Librispeech/common_voice_it_20088717_noisy.wav" type="audio/wav" />
 </audio>
-[**C&W adversarial**: *WER*=0.00, SNR<sub>seg</sub>=24.50],   [**psychoacoustic**: *WER*=0.00, SNR<sub>seg</sub>=25.36]
+[**C&W adversarial**: *WER*=0.00, SNR<sub>seg</sub>=10.36],   [**psychoacoustic**: *WER*=0.00, SNR<sub>seg</sub>=13.67]
  <audio style="width:320px" controls="controls">
-	<source src="audio_clips/Librispeech/common_voice_de_18217625_cw.wav" type="audio/wav" />
+	<source src="audio_clips/Librispeech/common_voice_it_20088717_cw.wav" type="audio/wav" />
 </audio>
 <audio style="width:320px" controls="controls">
-	<source src="audio_clips/Librispeech/common_voice_de_18217625_psy.wav" type="audio/wav" />
+	<source src="audio_clips/Librispeech/common_voice_it_20088717_psy.wav" type="audio/wav" />
 </audio>
-[**adaptive adversarial**: *WER*=0.00, SNR<sub>seg</sub>=-0.60]
+[**adaptive adversarial**: *WER*=0.00, SNR<sub>seg</sub>=-12.54]
 <audio style="width:320px" controls="controls">
-	<source src="audio_clips/Librispeech/1995-1837-0013_gc.wav" type="audio/wav" />
+	<source src="audio_clips/Librispeech/common_voice_it_20088717_gc.wav" type="audio/wav" />
 </audio>
 
 ###### Sample 2 
-<pre>Benign transcription:       <em>THEN HE LOOKED DOWN THE LAGOON WAS DRY</em>
-Adversarial transcription:  <em>PEARL WAS A BORN OUTCAST OF THE INFANTILE WORLD</em>
+<pre>Benign transcription:       <em>PER ESSA È CONSIGLIATA UNA DURATA DI DUE SETTIMANE</em>
+Adversarial transcription:  <em>LA LORO PRESENZA ERA PARTICOLARMENTE APPREZZATA DAL PASSEGGERI</em>
 </pre> &nbsp;
-[**benign**: *WER*=0.00],               [**noisy**: *WER*=62.50, SNR<sub>seg</sub>=-4.79]
+[**benign**: *WER*=0.00],               [**noisy**: *WER*=55.56, SNR<sub>seg</sub>=-11.31]
  <audio style="width:320px" controls="controls">
-	<source src="audio_clips/Librispeech/common_voice_de_18217625_benign.mp3" type="audio/mp3" />
+	<source src="audio_clips/Librispeech/common_voice_it_20020291_benign.mp3" type="audio/mp3" />
 </audio>
 <audio style="width:320px" controls="controls">
-	<source src="audio_clips/Librispeech/common_voice_de_18217625_noisy.wav" type="audio/wav" />
+	<source src="audio_clips/Librispeech/common_voice_it_20020291_noisy.wav" type="audio/wav" />
 </audio>
-[**C&W adversarial**: *WER*=0.00, SNR<sub>seg</sub>=24.50],   [**psychoacoustic**: *WER*=0.00, SNR<sub>seg</sub>=25.36]
+[**C&W adversarial**: *WER*=0.00, SNR<sub>seg</sub>=16.05],   [**psychoacoustic**: *WER*=0.00, SNR<sub>seg</sub>=18.96]
  <audio style="width:320px" controls="controls">
-	<source src="audio_clips/Librispeech/common_voice_de_18217625_cw.wav" type="audio/wav" />
+	<source src="audio_clips/Librispeech/common_voice_it_20020291_cw.wav" type="audio/wav" />
 </audio>
 <audio style="width:320px" controls="controls">
-	<source src="audio_clips/Librispeech/common_voice_de_18217625_psy.wav" type="audio/wav" />
+	<source src="audio_clips/Librispeech/common_voice_it_20020291_psy.wav" type="audio/wav" />
 </audio>
-[**adaptive adversarial**: *WER*=0.00, SNR<sub>seg</sub>=-0.60]
+[**adaptive adversarial**: *WER*=0.00, SNR<sub>seg</sub>=-6.73]
 <audio style="width:320px" controls="controls">
-	<source src="audio_clips/Librispeech/1995-1837-0013_gc.wav" type="audio/wav" />
+	<source src="audio_clips/Librispeech/common_voice_it_20020291_gc.wav" type="audio/wav" />
 </audio>
 
 ## Aishell - Mandarin
 
 ###### Sample 1 
-<pre>Benign transcription:       <em>THEN HE LOOKED DOWN THE LAGOON WAS DRY</em>
-Adversarial transcription:  <em>PEARL WAS A BORN OUTCAST OF THE INFANTILE WORLD</em>
+<pre>Benign transcription:       <em>PER ESSA È CONSIGLIATA UNA DURATA DI DUE SETTIMANE</em>
+Adversarial transcription:  <em>LA LORO PRESENZA ERA PARTICOLARMENTE APPREZZATA DAL PASSEGGERI</em>
 </pre> &nbsp;
-[**benign**: *WER*=0.00],               [**noisy**: *WER*=62.50, SNR<sub>seg</sub>=-4.79]
+[**benign**: *WER*=0.00],               [**noisy**: *WER*=55.56, SNR<sub>seg</sub>=-11.31]
  <audio style="width:320px" controls="controls">
-	<source src="audio_clips/Librispeech/1995-1837-0013_benign.flac" type="audio/flac" />
+	<source src="audio_clips/Librispeech/common_voice_it_20020291_benign.mp3" type="audio/mp3" />
 </audio>
 <audio style="width:320px" controls="controls">
-	<source src="audio_clips/Librispeech/1995-1837-0013_noisy.flac" type="audio/flac" />
+	<source src="audio_clips/Librispeech/common_voice_it_20020291_noisy.wav" type="audio/wav" />
 </audio>
-[**C&W adversarial**: *WER*=0.00, SNR<sub>seg</sub>=24.50],   [**psychoacoustic**: *WER*=0.00, SNR<sub>seg</sub>=25.36]
+[**C&W adversarial**: *WER*=0.00, SNR<sub>seg</sub>=16.05],   [**psychoacoustic**: *WER*=0.00, SNR<sub>seg</sub>=18.96]
  <audio style="width:320px" controls="controls">
-	<source src="audio_clips/Librispeech/1995-1837-0013_cw.wav" type="audio/wav" />
+	<source src="audio_clips/Librispeech/common_voice_it_20020291_cw.wav" type="audio/wav" />
 </audio>
 <audio style="width:320px" controls="controls">
-	<source src="audio_clips/Librispeech/1995-1837-0013_psy.wav" type="audio/wav" />
+	<source src="audio_clips/Librispeech/common_voice_it_20020291_psy.wav" type="audio/wav" />
 </audio>
-[**adaptive adversarial**: *WER*=0.00, SNR<sub>seg</sub>=-0.60]
+[**adaptive adversarial**: *WER*=0.00, SNR<sub>seg</sub>=-6.73]
 <audio style="width:320px" controls="controls">
-	<source src="audio_clips/Librispeech/1995-1837-0013_gc.wav" type="audio/flac" />
+	<source src="audio_clips/Librispeech/common_voice_it_20020291_gc.wav" type="audio/wav" />
 </audio>
 
 ###### Sample 2 
-<pre>Benign transcription:       <em>THEN HE LOOKED DOWN THE LAGOON WAS DRY</em>
-Adversarial transcription:  <em>PEARL WAS A BORN OUTCAST OF THE INFANTILE WORLD</em>
+<pre>Benign transcription:       <em>PER ESSA È CONSIGLIATA UNA DURATA DI DUE SETTIMANE</em>
+Adversarial transcription:  <em>LA LORO PRESENZA ERA PARTICOLARMENTE APPREZZATA DAL PASSEGGERI</em>
 </pre> &nbsp;
-[**benign**: *WER*=0.00],               [**noisy**: *WER*=62.50, SNR<sub>seg</sub>=-4.79]
+[**benign**: *WER*=0.00],               [**noisy**: *WER*=55.56, SNR<sub>seg</sub>=-11.31]
  <audio style="width:320px" controls="controls">
-	<source src="audio_clips/Librispeech/1995-1837-0013_benign.flac" type="audio/flac" />
+	<source src="audio_clips/Librispeech/common_voice_it_20020291_benign.mp3" type="audio/mp3" />
 </audio>
 <audio style="width:320px" controls="controls">
-	<source src="audio_clips/Librispeech/1995-1837-0013_noisy.flac" type="audio/flac" />
+	<source src="audio_clips/Librispeech/common_voice_it_20020291_noisy.wav" type="audio/wav" />
 </audio>
-[**C&W adversarial**: *WER*=0.00, SNR<sub>seg</sub>=24.50],   [**psychoacoustic**: *WER*=0.00, SNR<sub>seg</sub>=25.36]
+[**C&W adversarial**: *WER*=0.00, SNR<sub>seg</sub>=16.05],   [**psychoacoustic**: *WER*=0.00, SNR<sub>seg</sub>=18.96]
  <audio style="width:320px" controls="controls">
-	<source src="audio_clips/Librispeech/1995-1837-0013_cw.wav" type="audio/wav" />
+	<source src="audio_clips/Librispeech/common_voice_it_20020291_cw.wav" type="audio/wav" />
 </audio>
 <audio style="width:320px" controls="controls">
-	<source src="audio_clips/Librispeech/1995-1837-0013_psy.wav" type="audio/wav" />
+	<source src="audio_clips/Librispeech/common_voice_it_20020291_psy.wav" type="audio/wav" />
+</audio>
+[**adaptive adversarial**: *WER*=0.00, SNR<sub>seg</sub>=-6.73]
+<audio style="width:320px" controls="controls">
+	<source src="audio_clips/Librispeech/common_voice_it_20020291_gc.wav" type="audio/wav" />
 </audio>
 [**adaptive adversarial**: *WER*=0.00, SNR<sub>seg</sub>=-0.60]
 <audio style="width:320px" controls="controls">
