@@ -8,18 +8,18 @@ For each sample, we include the word error rate (WER) as an accuracy metric and 
 ## Librispeech - English
 
 ###### Sample 1 
-Benign transcription: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_THEN HE LOOKED DOWN THE LAGOON WAS DRY_
-
+<pre>Benign transcription: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_THEN HE LOOKED DOWN THE LAGOON WAS DRY_
 Adversarial transcription: &nbsp;&nbsp;_PEARL WAS A BORN OUTCAST OF THE INFANTILE WORLD_
+</pre>
 
-[**benign**: *WER*=0.00, SNR<sub>seg</sub>=---- &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;],   [**noisy**: *WER*=62.50, SNR<sub>seg</sub>=-4.79]
+[**benign**: *WER*=0.00, SNR<sub>seg</sub>=---- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;],   [**noisy**: *WER*=62.50, SNR<sub>seg</sub>=-4.79]
  <audio style="width:320px" controls="controls">
 	<source src="audio_clips/Librispeech/1995-1837-0013_benign.flac" type="audio/flac" />
 </audio>
 <audio style="width:320px" controls="controls">
 	<source src="audio_clips/Librispeech/1995-1837-0013_noisy.flac" type="audio/flac" />
 </audio>
-[**C&W adversarial**: *WER*=0.00, SNR<sub>seg</sub>=24.50],   [**psychoacoustic adv**: *WER*=0.00, SNR<sub>seg</sub>=25.36]
+[**C&W adversarial**: *WER*=0.00, SNR<sub>seg</sub>=24.50],   [**psychoacoustic**: *WER*=0.00, SNR<sub>seg</sub>=25.36]
  <audio style="width:320px" controls="controls">
 	<source src="audio_clips/Librispeech/1995-1837-0013_cw.wav" type="audio/wav" />
 </audio>
