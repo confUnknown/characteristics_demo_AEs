@@ -2,29 +2,31 @@
 
 Supplementary material containing a selection of benign, adversarial and noisy data employed in our [*paper*](https://openreview.net/forum?id=R1crLHQ4kf).
 
-For each sample, we include the word error rate ($WER$) as an accuracy metric and the segmental signal-to-noise ratio ($SNR_{seg}$) as a quality noise metric. An $SNR_{seg}$ exceeding 0 dB indicates a stronger signal presence compared to noise. These samples are sourced from the [*Librispeech*](https://www.openslr.org/12), [*Commonvoice*](https://commonvoice.mozilla.org/en), and [*Aishell*](https://www.openslr.org/33/) corpus datasets.
+For each sample, we include the word error rate (WER) as an accuracy metric and the segmental signal-to-noise ratio (SNR<sub>seg</sub>) as a quality noise metric. An SNR<sub>seg</sub> exceeding 0 dB indicates a stronger signal presence compared to noise. These samples are sourced from the [*Librispeech*](https://www.openslr.org/12), [*Commonvoice*](https://commonvoice.mozilla.org/en), and [*Aishell*](https://www.openslr.org/33/) corpus datasets.
 
 
 ## Librispeech - English
 
 ###### Sample 1 
-Benign transcription: $\space\space\space\space\space\space\space\space\space$ _THEN HE LOOKED DOWN THE LAGOON WAS DRY_
+Benign transcription:  _THEN HE LOOKED DOWN THE LAGOON WAS DRY_
 
-Adversarial transcription: $\space\space\space$ _PEARL WAS A BORN OUTCAST OF THE INFANTILE WORLD_
+Adversarial transcription: _PEARL WAS A BORN OUTCAST OF THE INFANTILE WORLD_
 
- [**benign**: *WER*=0.00, $SNR_{seg}$=----],   [**noisy**: *WER*=62.50, $SNR_{seg}$=-4.79],   [**C&W adversarial**: *WER*=0.00, $SNR_{seg}$=24.50],   [**psychoacoustic adversarial**: *WER*=0.00, $SNR_{seg}$=25.36],   [**adaptive adversarial**: *WER*=0.00, $SNR_{seg}$=-0.60]
-<audio style="width:320px" controls="controls">
+ [**benign**: *WER*=0.00, SNR<sub>seg</sub>=----],   [**noisy**: *WER*=62.50, SNR<sub>seg</sub>=-4.79]
+ <audio style="width:320px" controls="controls">
 	<source src="audio_clips/Librispeech/1995-1837-0013_benign.flac" type="audio/flac" />
 </audio>
 <audio style="width:320px" controls="controls">
 	<source src="audio_clips/Librispeech/1995-1837-0013_noisy.flac" type="audio/flac" />
 </audio>
-<audio style="width:320px" controls="controls">
+ [**C&W adversarial**: *WER*=0.00, SNR<sub>seg</sub>=24.50],   [**psychoacoustic adversarial**: *WER*=0.00, SNR<sub>seg</sub>=25.36]
+ <audio style="width:320px" controls="controls">
 	<source src="audio_clips/Librispeech/1995-1837-0013_cw.wav" type="audio/wav" />
 </audio>
 <audio style="width:320px" controls="controls">
 	<source src="audio_clips/Librispeech/1995-1837-0013_psy.wav" type="audio/wav" />
 </audio>
+ [**adaptive adversarial**: *WER*=0.00, SNR<sub>seg</sub>=-0.60]
 <audio style="width:320px" controls="controls">
 	<source src="audio_clips/Librispeech/1995-1837-0013_gc.wav" type="audio/flac" />
 </audio>
