@@ -64,7 +64,7 @@ Adversarial transcription:  <em>NEU DELHI IST DIE HAUPTSTADT VON INDIEN</em>
 	<source src="audio_clips/CommonVoice/German/common_voice_de_17914813_benign.mp3" type="audio/mp3" />
 </audio>
 <audio style="width:320px" controls="controls">
-	<source src="audio_clips/CommonVoice/German/common_voice_de_17914813_noisy.flac" type="audio/wav" />
+	<source src="audio_clips/CommonVoice/German/common_voice_de_17914813_noisy.wav" type="audio/wav" />
 </audio>
 [**C&W adversarial**: *WER*=0.00, SNR<sub>seg</sub>=9.05],   [**psychoacoustic**: *WER*=0.00, SNR<sub>seg</sub>=11.72]
  <audio style="width:320px" controls="controls">
@@ -75,7 +75,7 @@ Adversarial transcription:  <em>NEU DELHI IST DIE HAUPTSTADT VON INDIEN</em>
 </audio>
 [**adaptive adversarial**: *WER*=0.00, SNR<sub>seg</sub>=-25.41]
 <audio style="width:320px" controls="controls">
-	<source src="audio_clips/CommonVoice/German/common_voice_de_17914813.wav" type="audio/wav" />
+	<source src="audio_clips/CommonVoice/German/common_voice_de_17914813_gc.wav" type="audio/wav" />
 </audio>
 
 
@@ -99,7 +99,7 @@ Adversarial transcription:  <em>WAS SOLLS ICH BIN BEREIT</em>
 </audio>
 [**adaptive adversarial**: *WER*=0.00, SNR<sub>seg</sub>=-12.88]
 <audio style="width:320px" controls="controls">
-	<source src="audio_clips/CommonVoice/German/1995-1837-0013_gc.wav" type="audio/wav" />
+	<source src="audio_clips/CommonVoice/German/common_voice_de_18217625_gc.wav" type="audio/wav" />
 </audio>
 
 ## Common Voice v.6 - Italian
