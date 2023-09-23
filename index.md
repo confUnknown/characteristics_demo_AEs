@@ -12,10 +12,10 @@ Adversarial transcription:  <em>PEARL WAS A BORN OUTCAST OF THE INFANTILE WORLD<
 </pre> &nbsp;
 [**benign**: *WER*=0.00],               [**noisy**: *WER*=62.50, SNR<sub>seg</sub>=-4.79]
  <audio style="width:320px" controls="controls">
-	<source src="audio_clips/Librispeech/1995-1837-0013_benign.flac" type="audio/flac" />
+	<source src="audio_clips/Librispeech/1995-1837-0013_benign.wav" type="audio/wav" />
 </audio>
 <audio style="width:320px" controls="controls">
-	<source src="audio_clips/Librispeech/1995-1837-0013_noisy.flac" type="audio/flac" />
+	<source src="audio_clips/Librispeech/1995-1837-0013_noisy.wav" type="audio/wav" />
 </audio>
 [**C&W adversarial**: *WER*=0.00, SNR<sub>seg</sub>=24.50],   [**psychoacoustic**: *WER*=0.00, SNR<sub>seg</sub>=25.36]
  <audio style="width:320px" controls="controls">
@@ -35,10 +35,10 @@ Adversarial transcription:  <em>THERE WAS A GRIM SMILE OF AMUSEMENT ON HIS SHREW
 </pre> &nbsp;
 [**benign**: *WER*=0.00],               [**noisy**: *WER*=0.00, SNR<sub>seg</sub>=6.03]
  <audio style="width:320px" controls="controls">
-	<source src="audio_clips/Librispeech/4446-2273-0017_benign.flac" type="audio/flac" />
+	<source src="audio_clips/Librispeech/4446-2273-0017_benign.wav" type="audio/wav" />
 </audio>
 <audio style="width:320px" controls="controls">
-	<source src="audio_clips/Librispeech/4446-2273-0017_noisy.flac" type="audio/flac" />
+	<source src="audio_clips/Librispeech/4446-2273-0017_noisy.wav" type="audio/wav" />
 </audio>
 [**C&W adversarial**: *WER*=0.00, SNR<sub>seg</sub>=22.04],   [**psychoacoustic**: *WER*=0.00, SNR<sub>seg</sub>=22.95]
  <audio style="width:320px" controls="controls">
