@@ -153,51 +153,47 @@ Adversarial transcription:  <em>LA LORO PRESENZA ERA PARTICOLARMENTE APPREZZATA 
 ## Aishell - Mandarin
 
 ###### Sample 1 
-<pre>Benign transcription:       <em>PER ESSA È CONSIGLIATA UNA DURATA DI DUE SETTIMANE</em>
-Adversarial transcription:  <em>LA LORO PRESENZA ERA PARTICOLARMENTE APPREZZATA DAL PASSEGGERI</em>
+<pre>Benign transcription:       <em>有 黑客 在 网络 上 兜售 车主 信</em>
+Adversarial transcription:  <em>顶级 田径 赛事 再次 落户 鸟巢</em>
 </pre> &nbsp;
-[**benign**: *WER*=0.00],               [**noisy**: *WER*=55.56, SNR<sub>seg</sub>=-11.31]
+[**benign**: *WER*=0.00],               [**noisy**: *WER*=0.00, SNR<sub>seg</sub>=6.95]
  <audio style="width:320px" controls="controls">
-	<source src="audio_clips/Librispeech/common_voice_it_20020291_benign.mp3" type="audio/mp3" />
+	<source src="audio_clips/Librispeech/BAC009S0908W0304_benign.wav" type="audio/wav" />
 </audio>
 <audio style="width:320px" controls="controls">
-	<source src="audio_clips/Librispeech/common_voice_it_20020291_noisy.wav" type="audio/wav" />
+	<source src="audio_clips/Librispeech/BAC009S0908W0304_noisy.wav" type="audio/wav" />
 </audio>
-[**C&W adversarial**: *WER*=0.00, SNR<sub>seg</sub>=16.05],   [**psychoacoustic**: *WER*=0.00, SNR<sub>seg</sub>=18.96]
+[**C&W adversarial**: *WER*=0.00, SNR<sub>seg</sub>=21.39],   [**psychoacoustic**: *WER*=0.00, SNR<sub>seg</sub>=25.20]
  <audio style="width:320px" controls="controls">
-	<source src="audio_clips/Librispeech/common_voice_it_20020291_cw.wav" type="audio/wav" />
+	<source src="audio_clips/Librispeech/BAC009S0908W0304_cw.wav" type="audio/wav" />
 </audio>
 <audio style="width:320px" controls="controls">
-	<source src="audio_clips/Librispeech/common_voice_it_20020291_psy.wav" type="audio/wav" />
+	<source src="audio_clips/Librispeech/BAC009S0908W0304_psy.wav" type="audio/wav" />
 </audio>
-[**adaptive adversarial**: *WER*=0.00, SNR<sub>seg</sub>=-6.73]
+[**adaptive adversarial**: *WER*=0.00, SNR<sub>seg</sub>=-5.87]
 <audio style="width:320px" controls="controls">
-	<source src="audio_clips/Librispeech/common_voice_it_20020291_gc.wav" type="audio/wav" />
+	<source src="audio_clips/Librispeech/BAC009S0908W0304_gc.wav" type="audio/wav" />
 </audio>
 
 ###### Sample 2 
-<pre>Benign transcription:       <em>PER ESSA È CONSIGLIATA UNA DURATA DI DUE SETTIMANE</em>
-Adversarial transcription:  <em>LA LORO PRESENZA ERA PARTICOLARMENTE APPREZZATA DAL PASSEGGERI</em>
+<pre>Benign transcription:       <em>加强 合作社 辅导 员 队伍 建设</em>
+Adversarial transcription:  <em>发行 利率 也有 较大 幅度 上升</em>
 </pre> &nbsp;
-[**benign**: *WER*=0.00],               [**noisy**: *WER*=55.56, SNR<sub>seg</sub>=-11.31]
+[**benign**: *WER*=8.33],               [**noisy**: *WER*=25.00, SNR<sub>seg</sub>=1.05]
  <audio style="width:320px" controls="controls">
-	<source src="audio_clips/Librispeech/common_voice_it_20020291_benign.mp3" type="audio/mp3" />
+	<source src="audio_clips/Librispeech/BAC009S0904W0207_benign.wav" type="audio/wav" />
 </audio>
 <audio style="width:320px" controls="controls">
-	<source src="audio_clips/Librispeech/common_voice_it_20020291_noisy.wav" type="audio/wav" />
+	<source src="audio_clips/Librispeech/BAC009S0904W0207_noisy.wav" type="audio/wav" />
 </audio>
-[**C&W adversarial**: *WER*=0.00, SNR<sub>seg</sub>=16.05],   [**psychoacoustic**: *WER*=0.00, SNR<sub>seg</sub>=18.96]
+[**C&W adversarial**: *WER*=0.00, SNR<sub>seg</sub>=22.48],   [**psychoacoustic**: *WER*=0.00, SNR<sub>seg</sub>=25.82]
  <audio style="width:320px" controls="controls">
-	<source src="audio_clips/Librispeech/common_voice_it_20020291_cw.wav" type="audio/wav" />
+	<source src="audio_clips/Librispeech/BAC009S0904W0207_cw.wav" type="audio/wav" />
 </audio>
 <audio style="width:320px" controls="controls">
-	<source src="audio_clips/Librispeech/common_voice_it_20020291_psy.wav" type="audio/wav" />
+	<source src="audio_clips/Librispeech/BAC009S0904W0207_psy.wav" type="audio/wav" />
 </audio>
-[**adaptive adversarial**: *WER*=0.00, SNR<sub>seg</sub>=-6.73]
+[**adaptive adversarial**: *WER*=0.00, SNR<sub>seg</sub>=-2.87]
 <audio style="width:320px" controls="controls">
-	<source src="audio_clips/Librispeech/common_voice_it_20020291_gc.wav" type="audio/wav" />
-</audio>
-[**adaptive adversarial**: *WER*=0.00, SNR<sub>seg</sub>=-0.60]
-<audio style="width:320px" controls="controls">
-	<source src="audio_clips/Librispeech/1995-1837-0013_gc.wav" type="audio/flac" />
+	<source src="audio_clips/Librispeech/BAC009S0904W0207_gc.wav" type="audio/wav" />
 </audio>
