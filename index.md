@@ -12,7 +12,7 @@ For each sample, we include the word error rate (WER) as an accuracy metric and 
 Adversarial transcription: &nbsp;&nbsp;_PEARL WAS A BORN OUTCAST OF THE INFANTILE WORLD_
 </pre>
 
-[**benign**: *WER*=0.00, SNR<sub>seg</sub>=---- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;],   [**noisy**: *WER*=62.50, SNR<sub>seg</sub>=-4.79]
+[**benign**: *WER*=0.00],                                     [**noisy**: *WER*=62.50, SNR<sub>seg</sub>=-4.79]
  <audio style="width:320px" controls="controls">
 	<source src="audio_clips/Librispeech/1995-1837-0013_benign.flac" type="audio/flac" />
 </audio>
