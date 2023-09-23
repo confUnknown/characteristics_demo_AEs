@@ -1,22 +1,33 @@
-# Demo
+# Adversarial example demo
 
-Supplementary Material containing a selection of the adversarial examples and noisy data employed in our paper.
+Supplementary material containing a selection of benign, adversarial and noisy data employed in our [*paper*](https://openreview.net/forum?id=R1crLHQ4kf).
 
-Each sample is accompanied by the Signal-to-Noise Ratio, as detailed in the paper. These samples are sourced from the Librispeech, Commonvoice, and Aishel corpus datasets.
+For each sample, we include the word error rate ($WER$) as an accuracy metric and the segmental signal-to-noise ratio ($SNR_{seg}$) as a quality noise metric. An $SNR_{seg}$ exceeding 0 dB indicates a stronger signal presence compared to noise. These samples are sourced from the [*Librispeech*](https://www.openslr.org/12), [*Commonvoice*](https://commonvoice.mozilla.org/en), and [*Aishell*](https://www.openslr.org/33/) corpus datasets.
 
-In the paper we found adversarial examples for DNSMOS, a CNN-based speech quality predictor. In this demo, we share the perturbed and original wav files from three datasets: [*DNS-challenge*](https://www.microsoft.com/en-us/research/academic-program/deep-noise-suppression-challenge-interspeech-2020/), [*TIMIT*](https://catalog.ldc.upenn.edu/LDC93s1), and [*VCTK-Demand*](https://datashare.ed.ac.uk/handle/10283/2791).
 
 ## Librispeech - English
 
 ###### Sample 1 
- [**original**: *SIG*=4.17, *BAK*=4.49, *OVR*=3.98],   [**perturbed**: *SIG*=1.14, *BAK*=1.22, *OVR*=0.97]
-<audio style="width:320px" controls="controls">
-	<source src="CTC_Deutsch/Benign/common_voice_de_17315084.mp3" type="audio/wav" />
-</audio>
-<audio style="width:320px" controls="controls">
-	<source src="CTC_Deutsch/Benign_noise/common_voice_de_17315084.wav" type="audio/wav" />
-</audio>
+Benign transcription: $\space\space\space\space\space\space\space\space\space$ _THEN HE LOOKED DOWN THE LAGOON WAS DRY_
 
+Adversarial transcription: $\space\space\space$ _PEARL WAS A BORN OUTCAST OF THE INFANTILE WORLD_
+
+ [**benign**: *WER*=0.00, $SNR_{seg}$=----],   [**noisy**: *WER*=62.50, $SNR_{seg}$=-4.79],   [**C&W adversarial**: *WER*=0.00, $SNR_{seg}$=24.50],   [**psychoacoustic adversarial**: *WER*=0.00, $SNR_{seg}$=25.36],   [**adaptive adversarial**: *WER*=0.00, $SNR_{seg}$=-0.60]
+<audio style="width:320px" controls="controls">
+	<source src="audio_clips/Librispeech/1995-1837-0013_benign.flac" type="audio/flac" />
+</audio>
+<audio style="width:320px" controls="controls">
+	<source src="audio_clips/Librispeech/1995-1837-0013_noisy.flac" type="audio/flac" />
+</audio>
+<audio style="width:320px" controls="controls">
+	<source src="audio_clips/Librispeech/1995-1837-0013_cw.wav" type="audio/wav" />
+</audio>
+<audio style="width:320px" controls="controls">
+	<source src="audio_clips/Librispeech/1995-1837-0013_psy.wav" type="audio/wav" />
+</audio>
+<audio style="width:320px" controls="controls">
+	<source src="audio_clips/Librispeech/1995-1837-0013_gc.wav" type="audio/flac" />
+</audio>
 
 ###### Sample 2 
  [**original**: *SIG*=4.06, *BAK*=4.16, *OVR*=3.73],   [**perturbed**: *SIG*=0.99, *BAK*=1.00, *OVR*=1.00]
@@ -26,17 +37,6 @@ In the paper we found adversarial examples for DNSMOS, a CNN-based speech qualit
 <audio style="width:320px" controls="controls">
 	<source src="wavs/DNS/attacked_DNSMOS_SIG_0.99_BAK_1.00_OVR_1.00_book_00007_chp_0008_reader_01326_9_7J3kchZ5UAg-0BQdzcum73Y-door_Freesound_validated_419319_3_snr27_fileid_39095.wav" type="audio/wav" />
 </audio>
-
-
-###### Sample 3 
- [**original**: *SIG*=2.37, *BAK*=2.50, *OVR*=1.83],   [**perturbed**: *SIG*=4.89, *BAK*=4.97, *OVR*=4.69]
-<audio style="width:320px" controls="controls">
-	<source src="wavs/DNS/original_DNSMOS_SIG_2.37_BAK_2.50_OVR_1.83_book_00007_chp_0008_reader_01326_48_CXtk8W2gNmY-JwhlLR98Zac-S_ilE4zabbA_snr36_fileid_15337.wav" type="audio/wav" />
-</audio>
-<audio style="width:320px" controls="controls">
-	<source src="wavs/DNS/attacked_DNSMOS_SIG_4.89_BAK_4.97_OVR_4.69_book_00007_chp_0008_reader_01326_48_CXtk8W2gNmY-JwhlLR98Zac-S_ilE4zabbA_snr36_fileid_15337.wav" type="audio/wav" />
-</audio>
-
 
 
 ## Common Voice v.6- German
