@@ -2,7 +2,7 @@
 
 Supplementary material containing a selection of benign, adversarial, and noisy data employed in our [*paper*]().
 
-For each sample, we include the word error rate (WER) as an accuracy metric and the segmental signal-to-noise ratio (SNR<sub>seg</sub>) as a quality noise metric. An SNR<sub>seg</sub> exceeding 0 dB indicates a stronger signal presence compared to noise. These samples are sourced from the [*Librispeech*](https://www.openslr.org/12), [*Commonvoice*](https://commonvoice.mozilla.org/en), and [*Aishell*](https://www.openslr.org/33/) corpus datasets.
+For each sample, we include the word error rate (WER) or the character error rate (CER) as an accuracy metric and the segmental signal-to-noise ratio (SNR<sub>seg</sub>) as a quality noise metric. An SNR<sub>seg</sub> exceeding 0 dB indicates a stronger signal presence compared to noise. These samples are sourced from the [*Librispeech*](https://www.openslr.org/12), [*Commonvoice*](https://commonvoice.mozilla.org/en), and [*Aishell*](https://www.openslr.org/33/) corpus datasets.
 
 
 ## Librispeech - English
@@ -156,21 +156,21 @@ Adversarial transcription:  <em>LA LORO PRESENZA ERA PARTICOLARMENTE APPREZZATA 
 <pre>Benign transcription:       <em>有 黑客 在 网络 上 兜售 车主 信</em>
 Adversarial transcription:  <em>顶级 田径 赛事 再次 落户 鸟巢</em>
 </pre> &nbsp;
-[**benign**: *WER*=0.00],               [**noisy**: *WER*=0.00, SNR<sub>seg</sub>=6.95]
+[**benign**: *CER*=0.00],               [**noisy**: *CER*=0.00, SNR<sub>seg</sub>=6.95]
  <audio style="width:320px" controls="controls">
 	<source src="audio_clips/Aishell/BAC009S0908W0304_benign.wav" type="audio/wav" />
 </audio>
 <audio style="width:320px" controls="controls">
 	<source src="audio_clips/Aishell/BAC009S0908W0304_noisy.wav" type="audio/wav" />
 </audio>
-[**C&W adversarial**: *WER*=0.00, SNR<sub>seg</sub>=21.39],   [**psychoacoustic**: *WER*=0.00, SNR<sub>seg</sub>=25.20]
+[**C&W adversarial**: *CER*=0.00, SNR<sub>seg</sub>=21.39],   [**psychoacoustic**: *CER*=0.00, SNR<sub>seg</sub>=25.20]
  <audio style="width:320px" controls="controls">
 	<source src="audio_clips/Aishell/BAC009S0908W0304_cw.wav" type="audio/wav" />
 </audio>
 <audio style="width:320px" controls="controls">
 	<source src="audio_clips/Aishell/BAC009S0908W0304_psy.wav" type="audio/wav" />
 </audio>
-[**adaptive adversarial**: *WER*=0.00, SNR<sub>seg</sub>=-5.87]
+[**adaptive adversarial**: *CER*=0.00, SNR<sub>seg</sub>=-5.87]
 <audio style="width:320px" controls="controls">
 	<source src="audio_clips/Aishell/BAC009S0908W0304_gc.wav" type="audio/wav" />
 </audio>
@@ -179,21 +179,21 @@ Adversarial transcription:  <em>顶级 田径 赛事 再次 落户 鸟巢</em>
 <pre>Benign transcription:       <em>加强 合作社 辅导 员 队伍 建设</em>
 Adversarial transcription:  <em>发行 利率 也有 较大 幅度 上升</em>
 </pre> &nbsp;
-[**benign**: *WER*=8.33],               [**noisy**: *WER*=25.00, SNR<sub>seg</sub>=1.05]
+[**benign**: *CER*=8.33],               [**noisy**: *CER*=25.00, SNR<sub>seg</sub>=1.05]
  <audio style="width:320px" controls="controls">
 	<source src="audio_clips/Aishell/BAC009S0904W0207_benign.wav" type="audio/wav" />
 </audio>
 <audio style="width:320px" controls="controls">
 	<source src="audio_clips/Aishell/BAC009S0904W0207_noisy.wav" type="audio/wav" />
 </audio>
-[**C&W adversarial**: *WER*=0.00, SNR<sub>seg</sub>=22.48],   [**psychoacoustic**: *WER*=0.00, SNR<sub>seg</sub>=25.82]
+[**C&W adversarial**: *CER*=0.00, SNR<sub>seg</sub>=22.48],   [**psychoacoustic**: *CER*=0.00, SNR<sub>seg</sub>=25.82]
  <audio style="width:320px" controls="controls">
 	<source src="audio_clips/Aishell/BAC009S0904W0207_cw.wav" type="audio/wav" />
 </audio>
 <audio style="width:320px" controls="controls">
 	<source src="audio_clips/Aishell/BAC009S0904W0207_psy.wav" type="audio/wav" />
 </audio>
-[**adaptive adversarial**: *WER*=0.00, SNR<sub>seg</sub>=-2.87]
+[**adaptive adversarial**: *CER*=0.00, SNR<sub>seg</sub>=-2.87]
 <audio style="width:320px" controls="controls">
 	<source src="audio_clips/Aishell/BAC009S0904W0207_gc.wav" type="audio/wav" />
 </audio>
