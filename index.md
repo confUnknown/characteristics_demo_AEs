@@ -7,6 +7,8 @@ For each sample, we include the word error rate (WER) or the character error rat
 - [ ] Mercury
 - [x] Venus
 :heavy_check_mark:
+ &#x2611; or &#9745;
+☒ &#x2612; or &#9746;
 
 ## Librispeech - English
 ###### Sample 1 
