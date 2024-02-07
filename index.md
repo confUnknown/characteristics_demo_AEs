@@ -4,6 +4,9 @@ Supplementary material containing a selection of benign, adversarial, and noisy 
 
 For each sample, we include the word error rate (WER) or the character error rate (CER) as an accuracy metric and the segmental signal-to-noise ratio (SNR<sub>seg</sub>) as a quality noise metric. An SNR<sub>seg</sub> exceeding 0 dB indicates a stronger signal presence compared to noise. These samples are sourced from the [*Librispeech*](https://www.openslr.org/12), [*Commonvoice*](https://commonvoice.mozilla.org/en), and [*Aishell*](https://www.openslr.org/33/) corpus datasets.
 
+- [ ] Mercury
+- [x] Venus
+:heavy_check_mark:
 
 ## Librispeech - English
 ###### Sample 1 
